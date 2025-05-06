@@ -9,4 +9,4 @@ vamos estudar
 - vetor
 - interação com o DOM
 
-- maria eduarda
+- Maria Eduarda
