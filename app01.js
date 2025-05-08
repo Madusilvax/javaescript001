@@ -5,12 +5,29 @@
 let nome = "maria"
 let idade =21
 
+
+
 // Console e Debug
 console.log(nome)
 console.log(idade)
 nome="maria"
 idade= 21
 console.log(nome, idade)
+
+// tipos de dados 
+//text==string
+let cidade="americana"
+
+//numerico== number
+let salario = 1500.35
+
+//boleano == boolean
+let fumante = false 
+
+console.log(typeof cidade)
+console.log(typeof salario)
+console.log(typeof fumante)
+
 
 
 
