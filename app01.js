@@ -128,7 +128,7 @@ while(controle<=100){
 }
 controle=1 // definição da variavel de controle
 while(controle<=100){ // condição
-    console.assert.log(controle)
+    console.log(controle)
     controle=controle+3// incremento
 }
 // mostrar 10 vezes "Senac Americana"
@@ -140,12 +140,34 @@ for(let i=1; i<=50;i=i+1){
     console.log(1)
 }
 
-    
-    
+       
+
+// Arrays-- vetor
+let alunos=["joão","paulo","renata","cris","x"]
+console.log(alunos[0])
+console.log(alunos[2])
+alunos[4]="kleber"
+console.log(alunos)
+alunos.push("karem")
+console.log(alunos)
+
+let frutas=[]
+console.log(frutas)
+frutas.push("🍓")
+frutas.push("🍌")
+frutas.push("🍐")
+frutas.push("🍈")
+frutas.push("🥝")
+frutas.push("🍎")
+frutas.push("🍒")
+frutas.push("🍉")
+frutas.push("🥑")
+frutas.push("🍍")
+frutas.push("🍊")
+console.log(frutas)
 
 
 
-// Arrays 
 
 // Funções básicas
 // Escopo
