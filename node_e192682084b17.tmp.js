@@ -112,37 +112,8 @@ if(idadeDocandido>=18){
 // quero mostrar 10 vezes a mensagem "Senac Americana"
 let controle=1
 while(controle<=10){
-    console.log("Senac americana")
-    controle=controle+1
-}
-controle=50
-while(controle<=63){
-    console.log(controle)
-    controle=controle+1
     
 }
-controle=0
-while(controle<=100){
-    console.log(controle)
-    controle=controle+2
-}
-controle=1 // definição da variavel de controle
-while(controle<=100){ // condição
-    console.assert.log(controle)
-    controle=controle+3// incremento
-}
-// mostrar 10 vezes "Senac Americana"
-for(let i=1;i<=10;i=i+1){
-    console.log("Senac Americana")
-    
-}
-for(let i=1; i<=50;i=i+1){
-    console.log(1)
-}
-
-    
-    
-
 
 
 // Arrays 
@@ -166,3 +137,4 @@ for(let i=1; i<=50;i=i+1){
 
 
 // Spread e REST  ************
+ 
