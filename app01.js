@@ -59,6 +59,17 @@ console.log(10>2 && 35<100 &&n1>n2 && 100<90)// todas as verificações precisam
 console.log(10<2 ||100==150 || 57==57)// OU- apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro, o resultado so sera falso
 // quando TODAS as verificações forem falsas 
 
+// DESAFIO 
+let preco= 100
+let precoAcrescimo=+17
+let precoDesconto=-7
+// faça um código que acrescente 17% ao preço e imprima
+precoAcrescimo = preco+(preco*0.17)
+console.log("preco com acréscimo: " +precoAcrescimo.toFixed(2))
+// faça um código que desconte 7% do preço e imprima
+precoDesconto=preco-preco*0.07
+console.log(precoDesconto)
+console.log("preco com desconto:" + precoDesconto.toFixed(2))
 
 
 
@@ -72,6 +83,31 @@ console.log(10<2 ||100==150 || 57==57)// OU- apenas uma verificação precisa se
 
 // Estrutura
 //     Estrutura de controle/decisão
+if(10>5){ 
+    console.log("10 é maior que 5")
+}else{
+    console.log("10 é menor que 100")
+}
+let idadeDocandido= 20
+if(idadeDocandido>=18){
+    console.log("pode digir")
+}else{
+    console.log("volte mais tarde")
+}
+
+ let salarioFunc =3000
+ let aumento = 5000 - salarioFunc
+ // faca um codigo que verifica se o salario do funcionario é maior que 5000, se for mostre a mensagem "sario OK"se nao mostre a mensagem "precisa de aumento" 
+ if(salarioFunc>5000){
+    console.log("salario OK")
+ }else{
+    console.log("precisa de aumento ",aumento.toFixed(2))
+ }
+
+
+
+    
+
 //     Laços de repetição
 
 // Arrays 
